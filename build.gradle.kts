@@ -11,11 +11,10 @@ version = "0.1.0-SNAPSHOT"
 repositories {
   mavenLocal()
   mavenCentral()
-  maven("https://s01.oss.sonatype.org/content/repositories/snapshots")
 }
 
 dependencies {
-  compileOnlyApi("org.sourcegrade:jagr-grader-api:0.1.0-SNAPSHOT")
+  compileOnlyApi("org.sourcegrade:jagr-grader-api:0.1")
   compileOnlyApi(kotlin("reflect"))
 }
 
