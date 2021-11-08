@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
   compileOnlyApi("org.sourcegrade:jagr-grader-api:0.1")
+  compileOnlyApi("org.sourcegrade:jagr-launcher:0.1")
   compileOnlyApi(kotlin("reflect"))
 }
 
