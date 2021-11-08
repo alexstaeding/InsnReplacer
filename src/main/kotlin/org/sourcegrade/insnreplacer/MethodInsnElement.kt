@@ -34,7 +34,7 @@ internal data class MethodInsnElement(
   }
 }
 
-internal fun Method.toMethodInsn(surrogate: KClass<*>? = null): MethodInsnElement {
+private fun Method.toMethodInsn(surrogate: KClass<*>? = null): MethodInsnElement {
   // not 100% correct, but it will work in most cases
   // e.g. INVOKESPECIAL via superclass method invocation from base class not covered here
   val opcode = when {
